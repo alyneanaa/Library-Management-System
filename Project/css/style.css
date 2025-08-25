@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+body {
+    height: 100vh;
+}
+.login-submit-button {
+    background-color: black;
+    color: white;
+}
+.login-submit-button:hover {
+    background-color: whitesmoke;
+    color: black;
+    border-color: white;
+}
+.home-con {
+  display: flex;
+  justify-content: center;  /* horizontal */
+  align-items: center;      /* vertical */
+  height: 100vh;            /* full screen height */
+  background-color: #FFE4C4;
+}
+
+.login-home {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  font-family: "alegreya-sans", serif;
+}
+.main-header h1 {
+    font-family: "alegreya", serif;
+}
